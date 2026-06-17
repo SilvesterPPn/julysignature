@@ -16,9 +16,9 @@ export default function Button({
   const baseClasses = 'inline-flex items-center justify-center font-medium transition-all duration-300 rounded-full';
   
   const variantClasses = {
-    primary: 'bg-stone-800 text-white hover:bg-stone-900',
-    secondary: 'bg-rose-500 text-white hover:bg-rose-600',
-    outline: 'border-2 border-stone-800 text-stone-800 hover:bg-stone-800 hover:text-white',
+    primary: 'bg-blue-800 text-white hover:bg-blue-900',
+    secondary: 'bg-blue-900 text-white hover:bg-blue-800',
+    outline: 'border-2 border-blue-800 text-stone-800 hover:bg-blue-800 hover:text-white',
   };
   
   const sizeClasses = {
