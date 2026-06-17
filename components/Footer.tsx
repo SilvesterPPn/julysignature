@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2 rounded-lg">
             <Image
-              src="/images/logo.jpeg"
+              src="/images/logo2.png"
               alt="July Signature"
               width={120}
               height={40}
