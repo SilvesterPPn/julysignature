@@ -10,59 +10,75 @@ export interface Product {
 export const products: Product[] = [
   {
     id: 1,
-    name: "Silk Blouse",
+    name: "Jean Shorts",
     price: 189,
-    category: "Tops",
+    category: "Shorts",
     image: "/images/prod1.jpeg",
-    description: "Premium silk blouse with delicate detailing"
+    description: "Premium Jean Shorts with delicate detailing"
   },
   {
     id: 2,
-    name: "Cashmere Cardigan",
+    name: "Jean Shorts",
     price: 299,
-    category: "Knitwear",
+    category: "Shorts",
     image: "/images/prod2.jpeg",
-    description: "Ultra-soft cashmere for ultimate comfort"
+    description: "Ultra-soft Jean Shorts for ultimate comfort"
   },
   {
     id: 3,
-    name: "Tailored Trousers",
+    name: "Tailored Shorts",
     price: 249,
     category: "Bottoms",
-    image: "/images/prod3.jpeg",
-    description: "Perfectly tailored trousers for any occasion"
+    image: "/images/prod21.jpeg",
+    description: "Perfectly tailored shorts for any occasion"
   },
   {
     id: 4,
-    name: "Leather Handbag",
+    name: "Tailored Shorts",
     price: 399,
-    category: "Accessories",
+    category: "Bottoms",
     image: "/images/prod4.jpeg",
-    description: "Handcrafted Italian leather handbag"
+    description: "Handcrafted Tailored Shorts"
   },
   {
     id: 5,
-    name: "Evening Dress",
+    name: "Jean Shorts",
     price: 599,
-    category: "Dresses",
+    category: "Shorts",
     image: "/images/prod5.jpeg",
-    description: "Stunning evening dress for special occasions"
+    description: "Stunning Jean Shorts for special occasions"
   },
   {
     id: 6,
-    name: "Silk Scarf",
+    name: "Shorts",
     price: 129,
-    category: "Accessories",
+    category: "Bottoms",
     image: "/images/prod6.jpeg",
-    description: "Printed silk scarf made in France"
+    description: "Handcrafted Shorts"
   },
   {
     id: 7,
-    name: "Wool Coat",
+    name: "Jean Shorts",
     price: 499,
-    category: "Outerwear",
+    category: "Shorts",
     image: "/images/prod7.jpeg",
-    description: "Premium wool blend coat for winter"
+    description: "Premium Jean Shorts with delicate detailing"
+  },
+   {
+    id: 8,
+    name: "Jean Shorts",
+    price: 279,
+    category: "Shorts",
+    image: "/images/prod8.jpeg",
+    description: "Italian designer sunglasses"
+  },
+  {
+    id: 9,
+    name: "Designer Sunglasses",
+    price: 279,
+    category: "Accessories",
+    image: "/images/prod9.jpeg",
+    description: "Italian designer sunglasses"
   },
   {
     id: 10,
@@ -145,29 +161,15 @@ export const products: Product[] = [
     description: "Italian designer sunglasses"
   },
   {
-    id: 8,
+    id: 21,
     name: "Designer Sunglasses",
     price: 279,
     category: "Accessories",
-    image: "/images/prod8.jpeg",
+    image: "/images/prod3.jpeg",
     description: "Italian designer sunglasses"
   },
-  {
-    id: 8,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
-    image: "/images/prod8.jpeg",
-    description: "Italian designer sunglasses"
-  },
-  {
-    id: 9,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
-    image: "/images/prod9.jpeg",
-    description: "Italian designer sunglasses"
-  },
+ 
+  
 ];
 
-export const categories = ["All", "Tops", "Knitwear", "Bottoms", "Dresses", "Outerwear", "Accessories"];
+export const categories = ["All", "Tops", "Shorts", "Bottoms", "Dresses", "Kids", "Accessories"];

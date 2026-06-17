@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import SectionTitle from '../../components/SectionTitle';
+
 import ProductCard from '../../components/ProductCard';
 import { products, categories } from '../../data/products';
 
@@ -21,18 +21,33 @@ export default function StorePage() {
   return (
     <main className="flex-1">
       {/* Hero */}
-      <section className="bg-stone-100 py-16 md:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold text-stone-900 mb-4">
+      <section className="relative min-h-[60vh] flex items-center justify-center">
+
+          
+          <div className="absolute inset-0">
+            <img
+              src="/images/collection.jpg"
+              alt="Our Collection"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-slate-900/60" />
+
+          {/* Content */}
+          <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
+
+            <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-4">
               Our Collection
             </h1>
-            <p className="text-lg text-stone-600">
+
+            <p className="text-lg md:text-xl text-slate-200">
               Discover your next favorite piece
             </p>
+
           </div>
-        </div>
-      </section>
+        </section>
 
       {/* Filters and Search */}
       <section className="py-8 bg-white border-b border-stone-200">
