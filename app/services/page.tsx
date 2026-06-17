@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Button from "../../components/Button";
 import { services } from "../../data/services";
+import type { Metadata } from 'next';
 
 import {
   FaTshirt,
@@ -11,9 +12,17 @@ import {
   FaPalette,
 } from "react-icons/fa";
 
-export const metadata = {
-  title: "Services - July Signature",
-  description: "Discover our personalized styling and luxury services",
+export const metadata: Metadata = {
+  title: 'Services - Personal Styling & Luxury Fashion',
+  description: 'Explore July Signature\'s premium services: personalized styling, wardrobe consulting, luxury makeovers, and more. Elevate your fashion identity.',
+  keywords: ['personal styling', 'luxury fashion services', 'wardrobe consultant', 'fashion makeover'],
+  openGraph: {
+    title: 'July Signature Services - Personal Styling & Luxury',
+    description: 'Explore July Signature\'s premium services: personalized styling, wardrobe consulting, luxury makeovers, and more.',
+    url: '/services',
+    images: [{ url: '/images/services.jpg', width: 1200, height: 630, alt: 'July Signature Services' }],
+  },
+  alternates: { canonical: '/services' },
 };
 
 

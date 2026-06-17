@@ -26,10 +26,10 @@ export default function Navbar() {
             <Image
               src="/images/logo.jpeg"
               alt="July Signature Logo"
-              width={90}
-              height={40}
+              width={80}
+              height={30}
               priority
-              className="h-auto w-auto object-contain"
+              className="h-auto w-auto object-contain rounded-full"
             />
           </Link>
 

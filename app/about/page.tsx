@@ -1,10 +1,17 @@
 import Image from "next/image";
+import type { Metadata } from 'next';
 
-
-export const metadata = {
-  title: "About - July Signature",
-  description:
-    "Learn about our story, mission, vision, and the values that define July Signature.",
+export const metadata: Metadata = {
+  title: 'About Us - July Signature',
+  description: 'Discover the story behind July Signature: our journey, values, and commitment to timeless luxury fashion. Learn how we curate premium pieces for the modern individual.',
+  keywords: ['July Signature story', 'luxury fashion brand', 'boutique history', 'fashion values'],
+  openGraph: {
+    title: 'About July Signature - Luxury Fashion Brand',
+    description: 'Discover the story behind July Signature: our journey, values, and commitment to timeless luxury fashion.',
+    url: '/about',
+    images: [{ url: '/images/about.jpg', width: 1200, height: 630, alt: 'About July Signature' }],
+  },
+  alternates: { canonical: '/about' },
 };
 
 export default function AboutPage() {
@@ -118,9 +125,95 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <section className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div className="grid lg:grid-cols-2 gap-14 items-center">
+
+          {/* TEXT SIDE */}
+          <div>
+            <span className="text-blue-900 uppercase tracking-[0.3em] text-xs font-semibold">
+              Our Physical Space
+            </span>
+
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mt-4 mb-6 leading-tight">
+              Experience Fashion
+              <span className="block text-blue-900">In Real Life</span>
+            </h2>
+
+            <p className="text-slate-600 text-lg leading-relaxed mb-6">
+              At July Signature, we believe fashion should not only be seen online
+              but experienced in person. Our physical store is designed as a
+              luxury fashion space where elegance meets comfort and personalized
+              styling comes to life.
+            </p>
+
+            {/* Highlights */}
+            <div className="grid grid-cols-2 gap-4">
+
+              <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                <h4 className="text-blue-900 font-semibold mb-1">
+                  Personalized Styling
+                </h4>
+                <p className="text-sm text-slate-600">
+                  One-on-one fashion guidance tailored to your style.
+                </p>
+              </div>
+
+              <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                <h4 className="text-blue-900 font-semibold mb-1">
+                  Premium Experience
+                </h4>
+                <p className="text-sm text-slate-600">
+                  A calm luxury space designed for comfort and elegance.
+                </p>
+              </div>
+
+              <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                <h4 className="text-blue-900 font-semibold mb-1">
+                  Exclusive Collections
+                </h4>
+                <p className="text-sm text-slate-600">
+                  In-store only pieces and limited fashion drops.
+                </p>
+              </div>
+
+              <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                <h4 className="text-blue-900 font-semibold mb-1">
+                  Luxury Ambience
+                </h4>
+                <p className="text-sm text-slate-600">
+                  Designed to reflect modern elegance and sophistication.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+           {/* IMAGE SIDE */}
+          <div className="relative">
+            <div className="rounded-3xl overflow-hidden shadow-xl border border-slate-200">
+              <img
+                src="/images/shop2.jpeg"
+                alt="July Signature Physical Store"
+                className="w-full h-[450px] object-cover"
+              />
+            </div>
+
+            {/* Floating Badge */}
+            <div className="absolute -bottom-5 left-6 bg-blue-800 text-white px-5 py-3 rounded-xl shadow-lg text-sm font-medium">
+              Visit Our Boutique Store
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+ 
 
       {/* ================= STATS ================= */}
-      <section className="py-16 bg-stone-50 border-y border-stone-200">
+      <section className="py-16 bg-white border-stone-200">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -128,7 +221,7 @@ export default function AboutPage() {
                 key={index}
                 className="text-center bg-white rounded-2xl p-8 shadow-sm"
               >
-                <h3 className="text-4xl font-bold text-blue-500 mb-3">
+                <h3 className="text-4xl font-bold text-blue-900 mb-3">
                   {stat.number}
                 </h3>
                 <p className="text-stone-600">{stat.label}</p>
