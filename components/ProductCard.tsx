@@ -23,7 +23,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       </div>
       <div className="text-center">
         <h3 className="text-lg font-medium text-stone-800 mb-1">{product.name}</h3>
-        <p className="text-rose-500 font-semibold">₦{product.price}</p>
+        <p className="text-gray-700 font-semibold">₦ {product.price}</p>
       </div>
     </div>
   );

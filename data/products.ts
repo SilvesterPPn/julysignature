@@ -1,7 +1,7 @@
 export interface Product {
   id: number;
   name: string;
-  price: number;
+  price: string;
   category: string;
   image: string;
   description: string;
@@ -11,7 +11,7 @@ export const products: Product[] = [
   {
     id: 1,
     name: "Jean Shorts",
-    price: 189,
+    price: "35,000",
     category: "Shorts",
     image: "/images/prod1.jpeg",
     description: "Premium Jean Shorts with delicate detailing"
@@ -19,23 +19,23 @@ export const products: Product[] = [
   {
     id: 2,
     name: "Jean Shorts",
-    price: 299,
+    price: "35,000",
     category: "Shorts",
     image: "/images/prod2.jpeg",
     description: "Ultra-soft Jean Shorts for ultimate comfort"
   },
   {
     id: 3,
-    name: "Tailored Shorts",
-    price: 249,
-    category: "Bottoms",
+    name: "Designer Suits",
+    price: "35,000",
+    category: "Dresses",
     image: "/images/prod21.jpeg",
-    description: "Perfectly tailored shorts for any occasion"
+    description: "Perfectly tailored suits for any occasion"
   },
   {
     id: 4,
     name: "Tailored Shorts",
-    price: 399,
+    price: "35,000",
     category: "Bottoms",
     image: "/images/prod4.jpeg",
     description: "Handcrafted Tailored Shorts"
@@ -43,7 +43,7 @@ export const products: Product[] = [
   {
     id: 5,
     name: "Jean Shorts",
-    price: 599,
+    price: "35,000",
     category: "Shorts",
     image: "/images/prod5.jpeg",
     description: "Stunning Jean Shorts for special occasions"
@@ -51,7 +51,7 @@ export const products: Product[] = [
   {
     id: 6,
     name: "Shorts",
-    price: 129,
+    price: "35,000",
     category: "Bottoms",
     image: "/images/prod6.jpeg",
     description: "Handcrafted Shorts"
@@ -59,7 +59,7 @@ export const products: Product[] = [
   {
     id: 7,
     name: "Jean Shorts",
-    price: 499,
+    price: "35,000",
     category: "Shorts",
     image: "/images/prod7.jpeg",
     description: "Premium Jean Shorts with delicate detailing"
@@ -67,109 +67,109 @@ export const products: Product[] = [
    {
     id: 8,
     name: "Jean Shorts",
-    price: 279,
+    price: "35,000",
     category: "Shorts",
     image: "/images/prod8.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Jean Shorts with delicate detailing"
   },
   {
     id: 9,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Designer Shorts",
+    price: "35,000",
+    category: "Shorts",
     image: "/images/prod9.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Jean Shorts with delicate detailing"
   },
   {
     id: 10,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Designer Shorts",
+    price: "35,000",
+    category: "Shorts",
     image: "/images/prod10.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Jean Shorts with delicate detailing"
   },
   {
     id: 11,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Plain Short",
+    price: "35,000",
+    category: "Shorts",
     image: "/images/prod11.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Jean Shorts with delicate detailing"
   },
   {
     id: 13,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Rapheal Suits",
+    price: "25,000",
+    category: "Kids",
     image: "/images/prod13.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Exclusive Rapheal Suits for kids"
   },
   {
     id: 14,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Designer suits",
+    price: "25,000",
+    category: "Dresses",
     image: "/images/prod14.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Designer suits for any occasion"
   },
   {
     id: 15,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Rapheal Suits",
+    price: "25,000",
+    category: "Kids",
     image: "/images/prod15.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Exclusive Rapheal Suits for kids"
   },
   {
     id: 16,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Dress",
+    price: "25,000",
+    category: "Kids",
     image: "/images/prod16.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Dress for kids"
   },
   {
     id: 17,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Quality Shirt",
+    price: "25,000",    
+    category: "Tops",
     image: "/images/prod17.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Quality Shirt with delicate detailing"
   },
   {
     id: 18,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Designer Shirt",
+    price: "25,000",
+    category: "Tops",
     image: "/images/prod18.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Designer Shirt with delicate detailing"
   },
   {
     id: 19,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Designer Shirt",
+    price: "25,000",
+    category: "Tops",
     image: "/images/prod19.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Designer Shirt with delicate detailing"
   },
   {
     id: 20,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Quality Top",
+    price: "25,000",
+    category: "Tops",
     image: "/images/prod20.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Quality Top with delicate detailing"
   },
   {
     id: 21,
-    name: "Designer Sunglasses",
-    price: 279,
-    category: "Accessories",
+    name: "Premuim Short",
+    price: "25,000",
+    category: "Bottoms",
     image: "/images/prod3.jpeg",
-    description: "Italian designer sunglasses"
+    description: "Premium Short with delicate detailing"
   },
  
   
 ];
 
-export const categories = ["All", "Tops", "Shorts", "Bottoms", "Dresses", "Kids", "Accessories"];
+export const categories = ["All", "Tops", "Shorts", "Bottoms", "Dresses", "Kids"];
