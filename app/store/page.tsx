@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'July Signature Store - Luxury Fashion Collection',
     description: 'Shop July Signature\'s curated collection of luxury fashion pieces. Filter by category and find your perfect style.',
     url: '/store',
-    images: [{ url: '/images/collection.jpg', width: 1200, height: 630, alt: 'July Signature Store' }],
+    images: [{ url: '/images/collection.jpeg', width: 1200, height: 630, alt: 'July Signature Store' }],
   },
   alternates: { canonical: '/store' },
 };

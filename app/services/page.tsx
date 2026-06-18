@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: 'July Signature Services - Personal Styling & Luxury',
     description: 'Explore July Signature\'s premium services: personalized styling, wardrobe consulting, luxury makeovers, and more.',
     url: '/services',
-    images: [{ url: '/images/services.jpg', width: 1200, height: 630, alt: 'July Signature Services' }],
+    images: [{ url: '/images/services.jpeg', width: 1200, height: 630, alt: 'July Signature Services' }],
   },
   alternates: { canonical: '/services' },
 };

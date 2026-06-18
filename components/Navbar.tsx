@@ -88,7 +88,7 @@ export default function Navbar() {
           <span className="text-xl font-serif font-bold text-stone-800">
             <Link href="/" className="flex items-center">
             <Image
-              src="/images/logo.jpeg"
+              src="/images/logo2.png"
               alt="July Signature Logo"
               width={90}
               height={40}

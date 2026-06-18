@@ -20,7 +20,7 @@ import {
 
 
 export default function HomeClient() {
-  const featuredProducts = products.slice(0, 4);
+  const featuredProducts = products.slice(0, 6);
 
   return (
   <>
