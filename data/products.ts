@@ -17,6 +17,14 @@ export const products: Product[] = [
     description: "Premium Jean Shorts with delicate detailing"
   },
   {
+    id: 26,
+    name: "Tinted Blue Gown",
+    price: "35,000",
+    category: "Dresses",
+    image: "/images/new5.jpeg",
+    description: "Premium Designer Gown with delicate detailing"
+  },
+  {
     id: 2,
     name: "Jean Shorts",
     price: "35,000",
@@ -33,12 +41,28 @@ export const products: Product[] = [
     description: "Perfectly tailored suits for any occasion"
   },
   {
+    id: 27,
+    name: "Luzury Dress",
+    price: "25,000",
+    category: "Dresses",
+    image: "/images/new6.jpeg",
+    description: "Top Quality Gown That fits well"
+  },
+  {
     id: 4,
     name: "Tailored Shorts",
     price: "35,000",
     category: "Bottoms",
     image: "/images/prod4.jpeg",
     description: "Handcrafted Tailored Shorts"
+  },
+  {
+    id: 28,
+    name: "SHeiN Top/Jeans Outfit",
+    price: "90,000",
+    category: "Dresses",
+    image: "/images/new7.jpeg",
+    description: "Jeans cost 45, Shein top cost 25..."
   },
   {
     id: 5,
@@ -49,12 +73,28 @@ export const products: Product[] = [
     description: "Stunning Jean Shorts for special occasions"
   },
   {
+    id: 29,
+    name: "Luzury Dress",
+    price: "90,000",
+    category: "Dress",
+    image: "/images/new9.jpeg",
+    description: "Jeans cost 45, Shein top cost 25..."
+  },
+  {
     id: 6,
     name: "Shorts",
     price: "35,000",
     category: "Bottoms",
     image: "/images/prod6.jpeg",
     description: "Handcrafted Shorts"
+  },
+   {
+    id: 30,
+    name: "Luxury Fit",
+    price: "30,000",
+    category: "Bottom",
+    image: "/images/new10.jpeg",
+    description: "Jeans cost 45, Shein top cost 25..."
   },
   {
     id: 7,
@@ -65,12 +105,28 @@ export const products: Product[] = [
     description: "Premium Jean Shorts with delicate detailing"
   },
    {
+    id: 31,
+    name: "Green Dress",
+    price: "25,000",
+    category: "Dress",
+    image: "/images/new11.jpeg",
+    description: "Luxury Gress"
+  },
+   {   
     id: 8,
     name: "Jean Shorts",
     price: "35,000",
     category: "Shorts",
     image: "/images/prod8.jpeg",
     description: "Premium Jean Shorts with delicate detailing"
+  },
+   {
+    id: 32,
+    name: "Luzury Fits",
+    price: "25,000",
+    category: "Dress",
+    image: "/images/new8.jpeg",
+    description: "Nice Fits tailored for comfort"
   },
   {
     id: 9,
@@ -88,6 +144,15 @@ export const products: Product[] = [
     image: "/images/prod10.jpeg",
     description: "Premium Jean Shorts with delicate detailing"
   },
+    {
+    id: 23,
+    name: "Green Aligned Dress",
+    price: "25,000",
+    category: "Dresses",
+    image: "/images/new3.jpeg",
+    description: "Premium Designer Shirt with delicate detailing"
+  },
+
   {
     id: 11,
     name: "Plain Short",
@@ -104,6 +169,24 @@ export const products: Product[] = [
     image: "/images/prod13.jpeg",
     description: "Exclusive Rapheal Suits for kids"
   },
+    {
+    id: 24,
+    name: "Multi color luxury Gown",
+    price: "30,000",
+    category: "Dresses",
+    image: "/images/new4.jpeg",
+    description: "Premium Designer Gown with delicate detailing"
+  },
+
+    {
+    id: 22,
+    name: "Lined Dress",
+    price: "25,000",
+    category: "Dresses",
+    image: "/images/new2.jpeg",
+    description: "Premium Designer Dress with delicate detailing"
+  },
+
   {
     id: 14,
     name: "Designer suits",
@@ -145,6 +228,14 @@ export const products: Product[] = [
     description: "Premium Designer Shirt with delicate detailing"
   },
   {
+    id: 25,
+    name: "Luzury Dress",
+    price: "25,000",
+    category: "Dresses",
+    image: "/images/new1.jpeg",
+    description: "Premium DesignerGown with delicate detailing"
+  },
+  {
     id: 19,
     name: "Designer Shirt",
     price: "25,000",
@@ -167,6 +258,14 @@ export const products: Product[] = [
     category: "Bottoms",
     image: "/images/prod3.jpeg",
     description: "Premium Short with delicate detailing"
+  },
+   {
+    id: 33,
+    name: "Fits Dress",
+    price: "50,000",
+    category: "Dress",
+    image: "/images/new12.jpeg",
+    description: "Leggings cost 25, Top Costs 25....."
   },
  
   
